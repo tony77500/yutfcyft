@@ -1,0 +1,14 @@
+document.getElementById('generer').addEventListener('click', function() {
+    const ingredients = document.getElementById('ingredients').value.trim();
+
+    if (ingredients === "") {
+        alert("Merci d'entrer au moins un ingrédient !");
+        return;
+    }
+
+    // Exemple de génération simulée (plus tard tu brancheras l'API OpenAI)
+    const recette = `Recette personnalisée avec : ${ingredients}.\n\nÉtapes :\n1. Préparer tous les ingrédients.\n2. Mélanger et cuire selon vos préférences.\n3. Servir chaud et déguster !`;
+
+    document.getElementById('recette').innerText = recette;
+});
+

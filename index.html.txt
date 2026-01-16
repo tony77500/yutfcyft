@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Recettes IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Générateur de Recettes IA</h1>
+</header>
+
+<section id="formulaire">
+    <h2>Entrez vos ingrédients :</h2>
+    <input type="text" id="ingredients" placeholder="Ex: poulet, pâtes, tomates">
+    <button id="generer">Générer la recette</button>
+</section>
+
+<section id="resultat">
+    <h2>Recette générée :</h2>
+    <div id="recette"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
